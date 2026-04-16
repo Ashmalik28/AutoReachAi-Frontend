@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import DashboardNav from '../components/DashboardNav';
-import LeftSidebar from '../components/Leftsidebar';
+import LeftSidebar from '../components/LeftSidebar';
 import MainContent from '../components/MainContent';
 
 const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5001";
